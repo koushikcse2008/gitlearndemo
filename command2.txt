@@ -1,0 +1,12 @@
+#Clone a repo and upload files in newly created repo koushik
+git clone clone_path
+
+git checkout dev
+git checkout -b koushik
+
+update the files in this directory
+
+git add updated files
+
+git commit -m  "Twitter report"
+git push origin koushik

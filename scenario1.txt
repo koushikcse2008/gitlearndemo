@@ -1,0 +1,38 @@
+#1 Scenario:
+
+You are asked to do below tasks against the git repository:
+1) Download the repo (URL given)
+3) Create a branch named demo_branch
+4) Work on the code within demo_branch
+5) Commit the branch with worked code
+6) Upload the branch demo_branch in the repository.
+ 
+Solutions:
+Step 1:
+$git clone repo_url
+This is used to clone the repository to your local machine. It will clone the repository and bring all the codes to your local machine to work on.
+
+Step 2:
+$git fetch
+This is used to get all the branches against the repository. It shows that what are the branches are already exist within the repository.
+
+Step 3:
+$git branch demo_branch
+$git checkout demo_branch
+OR
+$git checkout –b demo_branch
+
+Step 4:
+Work on the demo_branch codes
+
+Step 5:
+$git add .
+Add all the files changed in your current branch to the staging area
+
+Step 6:
+$git commit –m “commit message”
+Here you will commit all the codes in the current branch with a commit message. Commit message specifies what work/code you have done.
+
+Step 7:
+$git push
+Here you will publish the branch to the github repository. When you visit the git repository, you will see the work in your branch.

@@ -1,0 +1,11 @@
+#Within my local directory:
+
+$git init
+$git remote add origin dev_repo_url
+$git fetch origin dev
+$git checkout -b koushik
+
+After changes:
+$git add .
+$git commit -m "Twitter work"
+$git push orihin koushik 

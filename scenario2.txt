@@ -1,0 +1,39 @@
+#2 Scenario:
+You are on your office as regular. You are asked to get the latest codes from the branch named dev_work and work on that branch. After work is finishes, you have to push the code within that branch. Here no need to create any branch for your work.
+ 
+Solutions:
+
+Step 1:
+$git status
+This shows which branch you are here within the repo.
+
+Step 2:
+$git fetch
+This will fetches all the branches in your local machine
+
+Step 3:
+$git branch
+This will shows all the branches that are associated with the current repository
+
+Step 4:
+$git checkout dev_work
+This will checkout the branch before work
+
+Step 5:
+$git pull
+This will merge from git branch code to your local machine code.
+
+Step 6:
+Work on the dev_work codes
+
+Step 7:
+$git add .
+Add all the files changed in your current branch to the staging area
+
+Step 8:
+$git commit –m “commit message”
+Here you will commit all the codes in the current branch with a commit message. Commit message specifies what work/code you have done.
+
+Step 9:
+$git push
+Here you will publish the branch to the github repository. When you visit the git repository, you will see the work in your branch.
